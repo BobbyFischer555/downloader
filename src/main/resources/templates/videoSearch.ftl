@@ -10,7 +10,7 @@
         <label for="videoSearch" class="cols-sm-2 control-label" >
             <p class="text-primary">Video Search</p>
         </label>
-        <input type="text" name="uniqueId" id="videoSearch" placeholder="Enter Id Video">
+        <input type="text" name="uniqueId" id="videoSearch" placeholder="Enter  Video Id">
         <button type="submit" class="btn btn-primary">Search</button>
         <input type="hidden" name="type" value="video">
     </form>

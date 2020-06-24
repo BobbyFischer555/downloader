@@ -10,7 +10,7 @@
         <label for="audioSearch" class="cols-sm-2 control-label" >
             <p class="text-primary">Audio Search</p>
         </label>
-        <input type="text" name="uniqueId" id="audioSearch" placeholder="Enter Id Audio">
+        <input type="text" name="uniqueId" id="audioSearch" placeholder="Enter  Audio Id">
         <button type="submit" class="btn btn-primary">Search</button>
         <input type="hidden" name="type" value="audio">
     </form>
