@@ -7,7 +7,10 @@
         <p class="text-danger">${error}</p>
     </#if>
     <form action="/searchResult" method="post">
-        <input type="text" name="uniqueId">
+        <label for="audioSearch" class="cols-sm-2 control-label" >
+            <p class="text-primary">Audio Search</p>
+        </label>
+        <input type="text" name="uniqueId" id="audioSearch" placeholder="Enter Id Audio">
         <button type="submit" class="btn btn-primary">Search</button>
         <input type="hidden" name="type" value="audio">
     </form>
